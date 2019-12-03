@@ -47,6 +47,12 @@ export default new Router({
       name: 'state',
       component: () =>
         import(/* webpackChunkName: "state" */ './views/State.vue')
+    },
+    {
+      path: '/tween',
+      name: 'tween',
+      component: () =>
+        import(/* webpackChunkName: "state" */ './views/TweenBar.vue')
     }
   ]
 })

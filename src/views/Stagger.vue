@@ -27,7 +27,6 @@ export default {
       ease: 'bounce.out',
       onComplete: done
     })
-
   }
 }
 </script>
