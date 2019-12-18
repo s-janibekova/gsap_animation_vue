@@ -53,6 +53,12 @@ export default new Router({
       name: 'tween',
       component: () =>
         import(/* webpackChunkName: "state" */ './views/TweenBar.vue')
+    },
+    {
+      path: '/timeline',
+      name: 'timeline',
+      component: () =>
+        import(/* webpackChunkName: "state" */ './views/Timelime.vue')
     }
   ]
 })
